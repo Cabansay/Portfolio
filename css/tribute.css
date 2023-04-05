@@ -1,0 +1,105 @@
+body{
+    background-image: url(../img/moto.jpg);
+    background-size: cover;
+
+}
+.home{
+    
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 80px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #f87a04;
+
+}
+.home:hover{
+    color:black;
+    box-shadow: 0 0 10px #f7f2f2,
+    0 0 20px #f3ecec,
+    0 0 40px #f1eded,
+    0 0 150px #f1eded;
+}
+.john{
+    color:rgb(190, 162, 139);
+    font-size: 100px;
+    position: absolute;
+    left: 500px;
+    top:50px ;
+    text-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #fcfcfc;
+}
+.about{
+    position:absolute ;
+    width: 600px;
+    color: #f86604;
+    top:600px;
+    left: 50px;
+    box-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #f79605;
+}
+.about:hover{
+    color:white;
+    text-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #030303,
+    0 0 80px #fcfcfc;
+    transition: 0.5s;
+}
+
+.pic{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    top:300px;
+    left: 200px;
+    box-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #f79605;
+}
+.sample{
+    position: absolute;
+    top:250px;
+    left: 1000px;
+    font-size: 30px;
+    color: #f86604;
+    box-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #f79605;
+}
+.gif{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    height: 300px;
+    box-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 80px #f79605;
+    border: solid orangered;
+
+}
+.gif:hover{
+    box-shadow: 0 0 10px #fa5e04,
+    0 0 20px #f83c03,
+    0 0 40px #f1eded,
+    0 0 500px #f79605;
+    transition: 1s;
+ 
+}
